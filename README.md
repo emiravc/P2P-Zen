@@ -9,17 +9,17 @@ In order to run this directory, follow the following commands:
 
 Install poetry
 ```
-`poetry install`
-`poetry config` 
+poetry install
+poetry config 
 ```
 Setting up virtual enviroment
 ```
-`virtualenvs.in-project true`
-`source .venv/bin/acitvate`
+virtualenvs.in-project true
+source .venv/bin/acitvate
 ```
 Call the neccessary files
 ```
-`python manage.py migrate`
-`python manage.py initdb`
-`python manage.py runserver`
+python manage.py migrate
+python manage.py initdb
+python manage.py runserver
 ```
