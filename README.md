@@ -5,13 +5,12 @@
 
 Better way to view, manage and access [P2P Zen](https://github.com/emiravc/P2P-Zen) contents.
 
-In order to run this directory, follow the following commands
-```
-poetry install
-poetry config 
-virtualenvs.in-project true
-source .venv/bin/acitvate
-python manage.py migrate
-python manage.py initdb
-python manage.py runserver
-```
+In order to run this directory, follow the following commands:
+`poetry install`
+`poetry config` 
+`virtualenvs.in-project true`
+`source .venv/bin/acitvate`
+`python manage.py migrate`
+`python manage.py initdb`
+`python manage.py runserver`
+
