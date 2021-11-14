@@ -5,7 +5,7 @@
 
 Better way to view, manage and access [P2P Zen](https://github.com/emiravc/P2P-Zen) contents.
 
-In order to run this directory, follow the following commands:
+In order to run this directory, follow the following commands in your terminal:
 
 Install poetry
 ```
@@ -23,3 +23,6 @@ python manage.py migrate
 python manage.py initdb
 python manage.py runserver
 ```
+Once you are done launch the specified local website in your browser and login to Django with your specified email and password.
+
+After that execute [P2P Zen](https://github.com/emiravc/P2P-Zen) in an another terminal. At the end of execution, bot will send django to access. By the end of this our bot should work totally fine.
