@@ -1,0 +1,18 @@
+- model: record.author
+  pk: 1
+  fields:
+    first_name: Selcuk Emir
+    last_name: Avci
+    site: https://emiravc.github.io/PersonalWebsite/
+- model: record.author
+  pk: 2
+  fields:
+    first_name: Rei
+    last_name: Tsunemi
+    site: ""
+- model: record.author
+  pk: 3
+  fields:
+    first_name: Aaron
+    last_name: Lengyel
+    site: ""

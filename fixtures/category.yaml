@@ -1,0 +1,18 @@
+- model: record.category
+  pk: 1
+  fields:
+    name: Seekers
+    enabled: true
+    order: 1
+- model: record.category
+  pk: 2
+  fields:
+    name: Patients
+    enabled: true
+    order: 2
+- model: record.category
+  pk: 3
+  fields:
+    name: Care Partners
+    enabled: true
+    order: 3
