@@ -6,11 +6,20 @@
 Better way to view, manage and access [P2P Zen](https://github.com/emiravc/P2P-Zen) contents.
 
 In order to run this directory, follow the following commands:
+
+Install poetry
+```
 `poetry install`
 `poetry config` 
+```
+Setting up virtual enviroment
+```
 `virtualenvs.in-project true`
 `source .venv/bin/acitvate`
+```
+Call the neccessary files
+```
 `python manage.py migrate`
 `python manage.py initdb`
 `python manage.py runserver`
-
+```
